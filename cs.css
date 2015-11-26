@@ -1,0 +1,220 @@
+
+#main{
+	height:400px;
+	width:400px;
+	position:fixed;
+	background-color:white;
+	bottom:0px;
+	left:0px;
+	z-index:0;
+	}
+
+#main_menu {
+	position:absolute;
+	width: 0px;
+	height: 0px;
+	border-bottom: 70px solid #000066;
+	border-right: 70px solid transparent;
+	bottom:0px;
+	left:0px;
+	z-index: :10;
+}
+#slant{
+	position:absolute;
+	height:5px;
+	width:80px;
+	background-color:#80007c;
+	transform:rotate(45deg);
+	transform-origin:0% 100%;
+	bottom:65px;
+	left:10px;
+	z-index:1;
+	}
+#menuicon
+{
+	height:30px;
+	position:absolute;
+	width:30px;
+	
+	left:5px;
+	bottom:5px;
+	z-index:2;
+}
+.nav{
+	color:black;
+}
+#contact{
+	height:30px;
+	position:absolute;
+	width:30px;
+	
+	left:-75px;
+	bottom:95px;
+	z-index:2;
+	}
+.ph{
+	color:black;
+	transform: rotate(45deg);
+	
+}
+#home{
+	position:absolute;
+	height:30px;
+	width:30px;
+	
+	bottom:155px;
+	left:-95px;
+	z-index:2;
+}
+.hm{
+	color:black;
+}
+#projects{
+	position:absolute;
+	height:30px;
+	width:30px;
+	bottom:270px;
+	left:-70px;
+	z-index:3;
+}
+.pr{
+	color:black;
+}
+#resume{
+	position:absolute;
+	height:30px;
+	width:30px;
+	bottom:330px;
+	left:-75px;
+	z-index:3;
+}
+.res{
+	color:black;
+}
+#skills{
+	position:absolute;
+	height:30px;
+	width:30px;
+	bottom:215px;
+	left:-75px;
+	z-index:3;
+}
+.sk{
+	color:black;
+}
+
+#slant_icon{
+	position:absolute;
+	
+	height:65px;
+	width:5px;
+	background-color: #ff9900;
+	transform:rotate(45deg);
+	transform-origin:0% 100%;
+	z-index:5;
+}		
+.resu{
+	
+	left:-50px;
+	bottom:300px;
+}	
+.proj{
+	left:-50px;
+	bottom:245px;
+}
+.ski{
+	left:-50px;
+	bottom:190px;
+}
+.hom{
+	left:-50px;
+	bottom:130px;
+}
+.cont{
+	left:-50px;
+	bottom:65px;
+}	
+
+#slidebar{
+	position:absolute;
+	height:46px;
+	width:46px;
+	left:70px;
+	background-color:#ff9900;
+	bottom:60px;
+	opacity:0;
+
+}	
+
+#righttri{
+	
+	position:absolute;
+	width: 0;
+	height: 0;
+	left:116px;
+	bottom:60px;
+	border-top: 46px solid #ff9900;
+	border-right: 46px solid transparent;
+	opacity:0;
+
+}	
+#facebook{
+	position: absolute;
+	height:30px;
+	width:30px;
+	bottom:-50px;
+	left:170px;
+}
+.fb{
+	color:black;
+}
+#github{
+	position: absolute;
+	height:30px;
+	width:30px;
+	bottom:-50px;
+	left:210px;
+}
+.git{
+	color: :black;
+}
+#mail{
+	position: absolute;
+	height:30px;
+	width:30px;
+	bottom:-50px;
+	left:250px;
+}
+.gmail{
+	color:black;
+}
+#linkin{
+	position: absolute;
+	height:30px;
+	width:30px;
+	bottom:-50px;
+	left:290px;
+}
+.in{
+	color:black;
+}
+#message{
+	position: absolute;
+	height:30px;
+	width:30px;
+	bottom:-50px;
+	left:330px;
+}
+.mess{
+	color:black;
+}
+#google{
+	position: absolute;
+	height:30px;
+	width:30px;
+	bottom:-50px;
+	left:370px;
+}
+.plus{
+	color: :black;
+}
