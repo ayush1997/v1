@@ -23,7 +23,7 @@
 	position:absolute;
 	height:5px;
 	width:80px;
-	background-color:#80007c;
+	background-color:#66004c;
 	transform:rotate(45deg);
 	transform-origin:0% 100%;
 	bottom:65px;
@@ -217,4 +217,21 @@
 }
 .plus{
 	color: :black;
+}
+
+#display_title{
+	position: absolute;
+	height:30px;
+	width:150px;
+	background-color:#0099cc;
+	transform:rotate(-45deg);
+	transform-origin:0% 100%;
+	left:260px;
+	bottom:253px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	opacity:0;
 }
