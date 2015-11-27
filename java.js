@@ -172,7 +172,7 @@ $(document).on("mouseleave","#facebook",{action:'cur_down',obj:".fb",col:"black"
 $(document).on("mouseenter","#github",{action:'cur_on',obj:'.git',col:"white",text:'GITHUB'},icon_color);
 $(document).on("mouseleave","#github",{action:'cur_down',obj:".git",col:"black"},icon_color);
 
-$(document).on("mouseenter","#mail",{action:'cur_up',obj:'.gmail',col:"white",text:'GMAIL'},icon_color);
+$(document).on("mouseenter","#mail",{action:'cur_on',obj:'.gmail',col:"white",text:'GMAIL'},icon_color);
 $(document).on("mouseleave","#mail",{action:'cur_down',obj:".gmail",col:"black"},icon_color);
 
 $(document).on("mouseenter","#linkin",{action:'cur_on',obj:'.in',col:"white",text:'LINKEDIN'},icon_color);
