@@ -72,9 +72,22 @@ function slanti(event)
 	}
 function icon_color(event)
 {
-	
-	$(event.data.obj).css('color',event.data.col);
-		
+	if(event.data.action == "cur_on")
+	{	
+		$('#display_title').stop(true,true).animate({bottom:'263px',left:'230px',opacity:1},40);
+		$('#display_title').stop(true,true).html(event.data.text);
+		$(event.data.obj).css('color',event.data.col);
+	}
+	else if(event.data.action == "cur_down")
+	{
+		$("#display_title").stop(true,true).animate({bottom:'253px',left:'260px',opacity:0},40);
+		$('#display_title').stop(true,true).html('');
+		$(event.data.obj).css('color',event.data.col);
+	}
+	else if(event.data.action == 'main_menu')
+	{
+		$(event.data.obj).css('color',event.data.col);
+	}
 	
 }
 function sl(){
@@ -131,44 +144,44 @@ function bar(){
 
 $(document).on("click","#menuicon",slanti);
 
-$(document).on("mouseenter","#menuicon",{obj:'.nav',col:"white"},icon_color);
-$(document).on("mouseleave","#menuicon",{obj:".nav",col:"black"},icon_color);
+$(document).on("mouseenter","#menuicon",{action:"main_menu",obj:'.nav',col:"white"},icon_color);
+$(document).on("mouseleave","#menuicon",{action:"main_menu",obj:".nav",col:"black"},icon_color);
 
 
-$(document).on("mouseenter","#contact",{obj:'.ph',col:"white"},icon_color);
-$(document).on("mouseleave","#contact",{obj:".ph",col:"black"},icon_color);
+$(document).on("mouseenter","#contact",{action:'cur_on',obj:'.ph',col:"white",text:'CONTACT'},icon_color);
+$(document).on("mouseleave","#contact",{action:'cur_down',obj:".ph",col:"black"},icon_color);
 
-$(document).on("mouseenter","#home",{obj:'.hm',col:"white"},icon_color);
-$(document).on("mouseleave","#home",{obj:".hm",col:"black"},icon_color);
+$(document).on("mouseenter","#home",{action:'cur_on',obj:'.hm',col:"white",text:'HOME'},icon_color);
+$(document).on("mouseleave","#home",{action:'cur_down',obj:".hm",col:"black"},icon_color);
 
-$(document).on("mouseenter","#skills",{obj:'.sk',col:"white"},icon_color);
-$(document).on("mouseleave","#skills",{obj:".sk",col:"black"},icon_color);
+$(document).on("mouseenter","#skills",{action:'cur_on',obj:'.sk',col:"white",text:'SKILLS'},icon_color);
+$(document).on("mouseleave","#skills",{action:'cur_down',obj:".sk",col:"black"},icon_color);
 
-$(document).on("mouseenter","#projects",{obj:".pr",col:"white"},icon_color);
-$(document).on("mouseleave","#projects",{obj:".pr",col:"black"},icon_color);
+$(document).on("mouseenter","#projects",{action:'cur_on',obj:".pr",col:"white",text:'PROJECTS'},icon_color);
+$(document).on("mouseleave","#projects",{action:'cur_down',obj:".pr",col:"black"},icon_color);
 
-$(document).on("mouseenter","#resume",{obj:'.res',col:"white"},icon_color);
-$(document).on("mouseleave","#resume",{obj:".res",col:"black"},icon_color);
+$(document).on("mouseenter","#resume",{action:'cur_on',obj:'.res',col:"white",text:'RESUME'},icon_color);
+$(document).on("mouseleave","#resume",{action:'cur_down',obj:".res",col:"black"},icon_color);
 //$(document).on("mouseenter","#slant",sl);
 //$(document).on("mouseleave","#slant",sl);
 $(document).on("click","#contact",bar);
 
-$(document).on("mouseenter","#facebook",{obj:'.fb',col:"white"},icon_color);
-$(document).on("mouseleave","#facebook",{obj:".fb",col:"black"},icon_color);
+$(document).on("mouseenter","#facebook",{action:'cur_on',obj:'.fb',col:"white",text:'FACEBOOK'},icon_color);
+$(document).on("mouseleave","#facebook",{action:'cur_down',obj:".fb",col:"black"},icon_color);
 
-$(document).on("mouseenter","#github",{obj:'.git',col:"white"},icon_color);
-$(document).on("mouseleave","#github",{obj:".git",col:"black"},icon_color);
+$(document).on("mouseenter","#github",{action:'cur_on',obj:'.git',col:"white",text:'GITHUB'},icon_color);
+$(document).on("mouseleave","#github",{action:'cur_down',obj:".git",col:"black"},icon_color);
 
-$(document).on("mouseenter","#mail",{obj:'.gmail',col:"white"},icon_color);
-$(document).on("mouseleave","#mail",{obj:".gmail",col:"black"},icon_color);
+$(document).on("mouseenter","#mail",{action:'cur_up',obj:'.gmail',col:"white",text:'GMAIL'},icon_color);
+$(document).on("mouseleave","#mail",{action:'cur_down',obj:".gmail",col:"black"},icon_color);
 
-$(document).on("mouseenter","#linkin",{obj:'.in',col:"white"},icon_color);
-$(document).on("mouseleave","#linkin",{obj:".in",col:"black"},icon_color);
+$(document).on("mouseenter","#linkin",{action:'cur_on',obj:'.in',col:"white",text:'LINKEDIN'},icon_color);
+$(document).on("mouseleave","#linkin",{action:'cur_down',obj:".in",col:"black"},icon_color);
 
-$(document).on("mouseenter","#message",{obj:'.mess',col:"white"},icon_color);
-$(document).on("mouseleave","#message",{obj:".mess",col:"black"},icon_color);
+$(document).on("mouseenter","#message",{action:'cur_on',obj:'.mess',col:"white",text:'MESSAGE'},icon_color);
+$(document).on("mouseleave","#message",{action:'cur_down',obj:".mess",col:"black"},icon_color);
 
-$(document).on("mouseenter","#google",{obj:'.plus',col:"white"},icon_color);
-$(document).on("mouseleave","#google",{obj:".plus",col:"black"},icon_color);
+$(document).on("mouseenter","#google",{action:'cur_on',obj:'.plus',col:"white",text:"GOOGLE+"},icon_color);
+$(document).on("mouseleave","#google",{action:'cur_down',obj:".plus",col:"black"},icon_color);
 
 
