@@ -242,7 +242,7 @@
 #textdisp{
 	
 	
-	font-size:4.7vw;
+	font-size:1em;
 	
 	
 }
@@ -255,22 +255,22 @@
 }
 .head1{
 	
-	font-size: 4.7vw;
+	font-size: 5em;
 	padding-top: 100px;
-	padding-left:330px;
+	padding-left:280px;
 	font-family:Verdana, Geneva, sans-serif;
 
 }
 .head2{
 	
-	font-size:4vw;
-	padding-left:250px;
+	font-size:4em;
+	padding-left:300px;
 	
 	}
 
 .head3{
 	
-	font-size: 4vw;
+	font-size: 4em;
 	padding-left:150px;
 	
 }
