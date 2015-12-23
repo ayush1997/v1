@@ -1,11 +1,13 @@
 
 #main{
-	height:300px;
-	width:300px;
+	
 	position:fixed;
-	background-color:white;
-	bottom:0px;
+	background-color: blue;
+	
 	left:0px;
+	
+	bottom:0px;
+
 	z-index:0;
 	}
 
@@ -254,21 +256,25 @@
 .head1{
 	
 	font-size: 4.7vw;
-	
-	padding-left:90px;
+	padding-top: 100px;
+	padding-left:330px;
 	font-family:Verdana, Geneva, sans-serif;
 
 }
 .head2{
 	
-	font-size:4.7vw;
-	
+	font-size:4vw;
+	padding-left:250px;
 	
 	}
 
 .head3{
 	
 	font-size: 4vw;
+	padding-left:150px;
 	
 }
+.color{
 
+	background-color:red;
+}
