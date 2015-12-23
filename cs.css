@@ -1,7 +1,7 @@
 
 #main{
-	height:400px;
-	width:400px;
+	height:300px;
+	width:300px;
 	position:fixed;
 	background-color:white;
 	bottom:0px;
@@ -240,35 +240,35 @@
 #textdisp{
 	
 	
-	font-size:40px;
+	font-size:4.7vw;
 	
 	
 }
 
-#top{
+.top{
 	position:relative;
-	left:200px;
+	background-color:red;
+	
 
 }
 .head1{
-	position:absolute;
-	font-size: 90px;
-	left:400px;
+	
+	font-size: 4.7vw;
+	
+	padding-left:90px;
 	font-family:Verdana, Geneva, sans-serif;
 
 }
 .head2{
-	position:absolute;
-	font-size:50px;
-	top:140px;
-	left:490px;
+	
+	font-size:4.7vw;
+	
 	
 	}
 
 .head3{
-	position: absolute;
-	font-size: 50px;
-	top:200px;
-	left:430px;
+	
+	font-size: 4vw;
+	
 }
 
