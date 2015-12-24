@@ -243,7 +243,7 @@
 	
 	
 	font-size:1em;
-	
+	font-family: 'Bangers', cursive;
 	
 }
 
@@ -256,25 +256,42 @@
 .head1{
 	
 	font-size: 5em;
-	padding-top: 100px;
-	padding-left:280px;
-	font-family:Verdana, Geneva, sans-serif;
-
+	padding-top: 0px;
+	padding-left:0px;
+	font-family: 'Bangers', cursive;
 }
 .head2{
 	
 	font-size:4em;
-	padding-left:300px;
+	padding-left:0px;
+	font-family: 'Bangers', cursive;
 	
 	}
 
 .head3{
 	
 	font-size: 4em;
-	padding-left:150px;
-	
+	padding-left:0px;
+	font-family: 'Bangers', cursive;
 }
 .color{
 
 	background-color:red;
+}
+#wp{
+	position: fixed;
+	height:100vh;
+	width:100vw;
+
+}
+.wp1{
+	position: absolute;
+	height:100vh;
+	width:100vw;
+	
+
+}
+.wall{
+	position: absolute;
+	
 }
