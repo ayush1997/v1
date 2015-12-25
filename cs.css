@@ -178,7 +178,7 @@
 	left:210px;
 }
 .git{
-	color: :black;
+	color:black;
 }
 #mail{
 	position: absolute;
@@ -218,7 +218,7 @@
 	left:370px;
 }
 .plus{
-	color: :black;
+	color: black;
 }
 
 #display_title{
@@ -228,12 +228,12 @@
 	background-color:#0099cc;
 	transform:rotate(-45deg);
 	transform-origin:0% 100%;
-	left:260px;
-	bottom:253px;
+	font-family: 'Bangers', cursive;
 	padding-left: 5px;
-	padding-top: 5px;
+	padding-top: 0px;
 	padding-right: 5px;
 	padding-bottom: 5px;
+	font-size: 1.5em;
 	text-align: center;
 	opacity:0;
 }

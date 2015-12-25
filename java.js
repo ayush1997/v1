@@ -74,7 +74,7 @@ function icon_color(event)
 {
 	if(event.data.action == "cur_on")
 	{	
-		$('#display_title').stop(true,true).animate({bottom:'263px',left:'230px',opacity:1},40);
+		$('#display_title').stop(true,true).animate({bottom:'273px',left:'230px',opacity:1},40);
 		$('#display_title').stop(true,true).html(event.data.text);
 		$(event.data.obj).css('color',event.data.col);
 	}
