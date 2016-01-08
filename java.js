@@ -181,7 +181,7 @@ $(document).on("mouseleave","#linkin",{action:'cur_down',obj:".in",col:"black"},
 $(document).on("mouseenter","#message",{action:'cur_on',obj:'.mess',col:"white",text:'MESSAGE'},icon_color);
 $(document).on("mouseleave","#message",{action:'cur_down',obj:".mess",col:"black"},icon_color);
 
-$(document).on("mouseenter","#google",{action:'cur_on',obj:'.plus',col:"white",text:"GOOGLE+"},icon_color);
+$(document).on("mouseenter","#google",{action:'cur_on',obj:'.plus',col:"white",text:"TWITTER"},icon_color);
 $(document).on("mouseleave","#google",{action:'cur_down',obj:".plus",col:"black"},icon_color);
 
 
