@@ -1,4 +1,4 @@
-var i = 0; 
+var i = 1; 
 var j= -1;
 var list = ['Web Developer.','Programmer.','Graphic Designer.','Game Developer.'];
 var a=list[0];
@@ -28,7 +28,7 @@ function txt(){
 			}
 		else
 			{
-				i=0;
+				i=1;
 				var flag = ret_index(a);
 				a = list[flag];
 			}

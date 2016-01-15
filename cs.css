@@ -7,8 +7,8 @@
 	left:0px;
 	
 	bottom:0px;
-
-	z-index:0;
+    
+	z-index:100;
 	}
 
 #main_menu {
@@ -108,8 +108,8 @@
 #slant_icon{
 	position:absolute;
 	
-	height:65px;
-	width:5px;
+	height:4.0625em;
+	width:0.3125em;
 	background-color: #ff9900;
 	transform:rotate(45deg);
 	transform-origin:0% 100%;
@@ -255,14 +255,14 @@
 }
 .head1{
 	
-	font-size: 5em;
+	font-size: 80px;
 	padding-top: 0px;
 	padding-left:0px;
 	font-family: 'Bangers', cursive;
 }
 .head2{
 	
-	font-size:4em;
+	font-size:60px;
 	padding-left:0px;
 	font-family: 'Bangers', cursive;
 	
@@ -270,7 +270,7 @@
 
 .head3{
 	
-	font-size: 4em;
+	font-size: 60px;
 	padding-left:0px;
 	font-family: 'Bangers', cursive;
 }
@@ -295,3 +295,5 @@
 	position: absolute;
 	
 }
+
+  	
