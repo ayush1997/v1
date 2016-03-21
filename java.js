@@ -185,25 +185,3 @@ $(document).on("mouseenter","#google",{action:'cur_on',obj:'.plus',col:"white",t
 $(document).on("mouseleave","#google",{action:'cur_down',obj:".plus",col:"black"},icon_color);
 
 
-function retwidth()
-{
-	var a= $(window).width();
-	return a;
-
-}
-function resize()
-{
-
-	var width = retwidth();
-	if(width<1000)
-	{
-		$('#main').css('transform','scale(1.7)');
-
-	}
-	else
-	{
-		$('#main').css('transform','scale(1.0)');
-	}
-
-}
-setInterval(resize,10);

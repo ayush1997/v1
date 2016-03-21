@@ -1,6 +1,6 @@
 function retwidth()
 {
-	var a= $(window).width();
+	var a= screen.width;
 	return a;
 
 }
@@ -8,9 +8,9 @@ function resize()
 {
 
 	var width = retwidth();
-	if(width<1000)
+	if(width<500)
 	{
-		$('#main').css('transform','scale(1.7)');
+		$('#main').css('transform','scale(2.0)');
 
 	}
 	else
@@ -19,4 +19,4 @@ function resize()
 	}
 
 }
-setInterval(resize,10);
+resize();
